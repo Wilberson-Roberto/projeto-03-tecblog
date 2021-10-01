@@ -2,4 +2,26 @@
 ****************************/
 body {
     font: 14px Helvetica, Arial, sans-serif;
+    background: #cccccc;
+}
+
+/* Cabeçalho
+****************************/
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dfb202;
+    background: #ffffff;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+}
+
+/* Tipografia
+****************************/
+h1 {
+    font-weight: bold;
 }
