@@ -32,3 +32,98 @@ h1 {
     font-weight: bold;
     font-size: 3rem;
 }
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 0.7rem;
+    font-weight: bold;
+    background: #404040;
+    padding: 8px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+}
+
+/* sessão home
+****************************/
+.caixa {
+    padding: 20px;
+    background: #ffffff;
+}
+
+.direita .caixa {
+    padding: 10px;
+}
+
+.caixa a {
+    color: #ffcc00;
+}
+
+.direita .caixa a {
+    font-size: 0.8rem;
+}
+
+small {
+    display: block;
+    padding-bottom: 10px;
+}
+
+img.foto {
+    padding: 10px 0;
+    border-top: 1px dotted #cccccc;
+}
+
+.direita p {
+    margin-bottom: 5px;
+    font-size: 0.6rem;
+}
+
+.categorias {
+    margin-top: 20px;
+}
+
+.categorias a {
+    display: block;
+    padding: 5px 0;
+}
+
+/* Responsividade
+-------------------------------------------------*/
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+    
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+/* Dispositivos mĆÄdios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container { /* Define a largura mĆ�xima da pĆ�gina */
+        max-width: 900px;
+    }
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {
+    .container { /* Define a largura mĆ�xima da pĆ�gina */
+        max-width: 900px;
+    }
+}
