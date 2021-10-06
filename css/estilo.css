@@ -57,6 +57,7 @@ p {
 /* sessão home
 ****************************/
 .caixa {
+    margin-top: 20px;
     padding: 20px;
     background: #ffffff;
 }
@@ -85,7 +86,7 @@ img.foto {
 
 .direita p {
     margin-bottom: 5px;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 }
 
 .categorias {
@@ -95,6 +96,12 @@ img.foto {
 .categorias a {
     display: block;
     padding: 5px 0;
+}
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* Responsividade
