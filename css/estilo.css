@@ -7,19 +7,28 @@ body {
 
 /* Cabeçalho
 ****************************/
+.cor-fundo {
+    background: linear-gradient(to right, #ffc400, #ffee00, #ffc400);
+}
+
 .logo a {
     color: #404040;
     margin-top: 20px;
 }
 
+.cor-vermelha {
+    color: #e00202;
+}
+
 .navbar-light .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #404040;
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #dfb202;
-    background: #ffffff;
+    color: #ffffff;
+    background: #e00202;
 }
 
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -36,7 +45,7 @@ h1 {
 h2 {
     font-size: 1.3rem;
     font-weight: bold;
-    color: #ffcc00;
+    color: #e00202;
     margin-bottom: 0;
 }
 
@@ -67,7 +76,7 @@ p {
 }
 
 .caixa a {
-    color: #ffcc00;
+    color: #bdb002;
 }
 
 .direita .caixa a {
@@ -102,6 +111,14 @@ footer {
     padding: 10px 0;
     text-align: center;
     margin-top: 20px;
+}
+
+footer a {
+    color: #e00202;
+}
+
+footer a:hover {
+    color: #ff0000;
 }
 
 /* Responsividade
