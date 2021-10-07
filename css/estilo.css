@@ -76,7 +76,7 @@ p {
 }
 
 .caixa a {
-    color: #bdb002;
+    color: #d4ae03;
 }
 
 .direita .caixa a {
@@ -107,6 +107,23 @@ img.foto {
     padding: 5px 0;
 }
 
+/* formulário
+-------------------------------------------------*/
+.formulario {
+    padding: 10px 0;
+}
+
+.formulario .form-control {
+    border: 1px solid #ffc400;
+}
+
+input#enviar {
+    width: 100px;
+    margin-top: 20px;
+}
+
+/* rodapé
+-------------------------------------------------*/
 footer {
     padding: 10px 0;
     text-align: center;
